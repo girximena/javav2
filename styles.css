@@ -1,0 +1,245 @@
+/*ESTILO DE INICIAR SESIÓN*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 245, 244); 
+}
+.login-container{
+    width: 350px;
+    margin:auto;
+    margin-top:95px;
+    background-color: rgb(184, 241, 218);
+    padding:100px;
+    border-radius: 0px;
+    box-shadow: 0 5px 5px rgba(1, 1, 1, 0.939);
+    border:2px solid black;
+}
+.login-container h1{
+    text-align: center;
+}
+.form-group{
+    margin-bottom:30px;
+}
+label{
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    padding: 5px;
+    border:1px solid #0e0e0e;
+    border-radius: 3px;
+}
+button[ type="submit"]{
+    display:block;
+    background-color: rgb(133, 205, 248);
+    width: 360px;
+    padding:10px;
+    border-color: rgb(87, 199, 240);
+    border: 1px solid black;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0%;
+    cursor:pointer;
+}
+button[type="submit"]:hover{
+    background-color: rgb(139, 227, 247);
+}
+.avatar{
+    display:block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:1 auto 10px;
+    border: 2px solid black;
+}
+/*ESTILOS DEL MENÚ*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .menu-container {
+    max-width: 800px;
+    border: 2px solid black;
+    color:black;
+    margin: 2 auto;
+    background-color:rgb(184, 241, 218);
+    padding: 50px;
+    border-radius: 0px;
+    box-shadow: 10 2px 5px rgba(205, 25, 25, 0.1);
+  }
+  .menu-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 10;
+  }
+  li {
+    margin-bottom: 0px;
+    border: 1px solid black;
+    color:black;
+  }
+  a {
+    display: block;
+    padding: 10px;
+    background-color: #fefdfd;
+    border-radius: 0px;
+    text-decoration: none;
+    color: #020202;
+    transition: background-color 0.6s ease;
+  }
+  a:hover {
+    background-color: #ddd;
+  }
+/*ESTILOS DEL REGISTRO DE EMPLEADOS*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 247, 245); 
+}
+.em{
+  display:block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+}
+.us{
+  display:block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+}
+.bus{
+  display:block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+}
+.eli{
+  display:block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+}
+.mod{
+  display:block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+}
+.form-container {
+  background-color:rgb(184, 241, 218);
+  border:2px solid #070707;
+    width: 800px;
+    margin: 1 auto;
+  }
+  .form-group {
+    margin-bottom: 10px;
+    
+  }
+  .label {
+    display: block;
+    font-weight: bold;
+  }
+  .input {
+    width: 10%;
+    padding: 0px;
+    font-size: 16px;
+    border: 1px solid #070707;
+    border-radius: 4px;
+  }
+  
+  
+/*ESTILOS DEL REGISTRO DE PROYECTOS*/  
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/*ESTILOS DE LA INFORMACIÓN GENERAL*/
+table {
+  width: 70%;
+  border-collapse: collapse;
+   background-color: white;
+   } 
+   .form-container {
+    background-color:rgb(184, 241, 218);
+    border:2px solid #070707;
+      width: 1000px;
+      padding: 80px;
+      margin: 1 auto;
+    }
+th {
+  background-color: #6797f0;
+  border: 1px solid black;
+ padding: 10px;
+ width:20px ;
+ }
+ td{
+  border: 1px solid black;
+ padding: 8px;
+
+ }
+ .ig{
+  display:block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:1 auto 10px;
+    border: 2px solid black;
+ }
+ .habi{
+  display:block;
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  margin:1 auto 10px;
+ }
+ .car{
+  display:block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+ }
+ .emplea{
+  display:block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+ }
+ .proye{
+  display:block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin:1 auto 10px;
+ }
